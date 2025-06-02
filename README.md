@@ -6,6 +6,7 @@ Repository Structure
 
 factor_portfolio_project/
 ├── src/
+
 │   ├── factors.py              # Factor computations: momentum, z-score
 │   ├── volatility_factors.py   # Volatility metrics and VRP calculation
 │   ├── portfolio.py            # Signal creation and portfolio returns
