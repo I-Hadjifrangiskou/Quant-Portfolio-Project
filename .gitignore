@@ -1,0 +1,15 @@
+# Ignore virtual environments
+venv/
+.env/
+
+# Ignore cache and logs
+__pycache__/
+*.py[cod]
+*.log
+
+# Ignore Jupyter checkpoints
+.ipynb_checkpoints/
+
+# VSCode or PyCharm config folders (optional)
+.vscode/
+.idea/
