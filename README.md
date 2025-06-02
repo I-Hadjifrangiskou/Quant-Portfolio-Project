@@ -1,6 +1,6 @@
 # Quant Portfolio Strategy Exploration
 
-This project explores a series of quantitative strategies for equity portfolio construction, based on both hand-crafted factor signals and machine learning predictions. It is structured to simulate how a quant research team would approach building, evaluating, and comparing different alpha models using real financial data.
+This project explores a series of quantitative strategies for equity portfolio construction, based on both hand-crafted factor signals and machine learning predictions. This is a first attempt at a structure that a quant research team may approach building, evaluating, and comparing different alpha models using real financial data.
 
 ---
 
