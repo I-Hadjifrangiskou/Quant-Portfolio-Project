@@ -52,15 +52,13 @@ We constructed and backtested portfolios using several well-known quant factors:
 #### Strategy Performance Plots
 
 **Momentum Strategy vs. Benchmark**  
-![Momentum Strategy](../data/processed/momentum-strategy.png)
-
-[Momentum Strategy](https://github.com/I-Hadjifrangiskou/Quant-Portfolio-Project/blob/main/data/processed/momentum-strategy.png))
+![Momentum Strategy](https://github.com/I-Hadjifrangiskou/Quant-Portfolio-Project/blob/main/data/processed/momentum-strategy.png)
 
 **VRP Strategy vs. Benchmark**  
-![VRP Strategy](../data/processed/VRP-strategy.png)
+![VRP Strategy](https://github.com/I-Hadjifrangiskou/Quant-Portfolio-Project/blob/main/data/processed/VRP-strategy.png)
 
 **Combined Momentum + VRP Strategy vs. Benchmark**  
-![Combined Strategy](../data/processed/Combined-strategy.png)
+![Combined Strategy](https://github.com/I-Hadjifrangiskou/Quant-Portfolio-Project/blob/main/data/processed/Combined-strategy.png)
 
 ---
 
@@ -89,7 +87,7 @@ We implemented a machine learning model to predict future returns from factor in
 
 #### ML Strategy Plot
 
-![ML Strategy](../data/processed/ML-strategy.png)
+![ML Strategy](https://github.com/I-Hadjifrangiskou/Quant-Portfolio-Project/blob/main/data/processed/ML-strategy.png)
 
 ### Potential Reasons for Underperformance
 
