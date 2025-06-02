@@ -15,10 +15,10 @@ factor_portfolio_project/
 │   ├── ml_pipeline.py          # ML model training and prediction logic
 ├── data/processed/             # CSV files for prices, returns, factor data
 ├── notebooks/
-│   ├── 02_factor_analysis.ipynb
-│   ├── 03_backtest_and_signal.ipynb
-│   ├── 04_comparison.ipynb
-│   ├── 06_ml_alpha_model.ipynb
+│   ├── factor_analysis.ipynb
+│   ├── backtest_and_signal.ipynb
+│   ├── comparison.ipynb
+│   ├── ml_alpha_model.ipynb
 ```
 
 ---
