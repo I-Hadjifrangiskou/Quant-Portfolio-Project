@@ -5,18 +5,29 @@ This project explores a series of quantitative strategies for equity portfolio c
 Repository Structure
 
 factor_portfolio_project/
+
 ├── src/
 
 │   ├── factors.py              # Factor computations: momentum, z-score
+
 │   ├── volatility_factors.py   # Volatility metrics and VRP calculation
+
 │   ├── portfolio.py            # Signal creation and portfolio returns
+
 │   ├── ml_pipeline.py          # ML model training and prediction logic
+
 ├── data/processed/             # CSV files for prices, returns, factor data
+
 ├── notebooks/
+
 │   ├── 02_factor_analysis.ipynb
+
 │   ├── 03_backtest_and_signal.ipynb
+
 │   ├── 04_comparison.ipynb
+
 │   ├── 06_ml_alpha_model.ipynb
+
 
 1. Factor-Based Portfolios
 
