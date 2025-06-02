@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 Quant Portfolio Strategy Exploration
 
 This project explores a series of quantitative strategies for equity portfolio construction, based on both hand-crafted factor signals and machine learning predictions. It is structured to simulate how a quant research team would approach building, evaluating, and comparing different alpha models using real financial data.
@@ -6,6 +7,8 @@ This project explores a series of quantitative strategies for equity portfolio c
 Repository Structure
 
 =======
+=======
+>>>>>>> 26f5a1433a56393d2b32260aa588e312e4550f5f
 # Quant Portfolio Strategy Exploration
 
 This project explores a series of quantitative strategies for equity portfolio construction, based on both hand-crafted factor signals and machine learning predictions. It is structured to simulate how a quant research team would approach building, evaluating, and comparing different alpha models using real financial data.
@@ -15,6 +18,9 @@ This project explores a series of quantitative strategies for equity portfolio c
 ## Repository Structure
 
 ```
+<<<<<<< HEAD
+>>>>>>> 26f5a1433a56393d2b32260aa588e312e4550f5f
+=======
 >>>>>>> 26f5a1433a56393d2b32260aa588e312e4550f5f
 factor_portfolio_project/
 ├── src/
@@ -28,6 +34,7 @@ factor_portfolio_project/
 │   ├── 03_backtest_and_signal.ipynb
 │   ├── 04_comparison.ipynb
 │   ├── 06_ml_alpha_model.ipynb
+<<<<<<< HEAD
 <<<<<<< HEAD
 
 1. Factor-Based Portfolios
@@ -142,6 +149,8 @@ Author
 Ioannis HadjifrangiskouThis project is part of a self-directed effort to explore quantitative research methods and prepare for roles in systematic investing or quant finance.
 
 =======
+=======
+>>>>>>> 26f5a1433a56393d2b32260aa588e312e4550f5f
 ```
 
 ---
@@ -243,4 +252,7 @@ We implemented a machine learning model to predict future returns from factor in
 
 Ioannis Hadjifrangiskou  
 This project is part of a self-directed effort to explore quantitative research methods and prepare for roles in systematic investing or quant finance.
+<<<<<<< HEAD
+>>>>>>> 26f5a1433a56393d2b32260aa588e312e4550f5f
+=======
 >>>>>>> 26f5a1433a56393d2b32260aa588e312e4550f5f
