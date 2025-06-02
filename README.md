@@ -54,7 +54,7 @@ We constructed and backtested portfolios using several well-known quant factors:
 **Momentum Strategy vs. Benchmark**  
 ![Momentum Strategy](../data/processed/momentum-strategy.png)
 
-[<img src="../data/processed/momentum-strategy.png">](https://github.com/I-Hadjifrangiskou/Quant-Portfolio-Project/blob/main/data/processed/momentum-strategy.png))
+[Momentum Strategy <img src="../data/processed/momentum-strategy.png">](https://github.com/I-Hadjifrangiskou/Quant-Portfolio-Project/blob/main/data/processed/momentum-strategy.png))
 
 **VRP Strategy vs. Benchmark**  
 ![VRP Strategy](../data/processed/VRP-strategy.png)
