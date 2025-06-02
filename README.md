@@ -45,7 +45,7 @@ We constructed and backtested portfolios using several well-known quant factors:
 
 ### Results
 
-- All three factor strategies were evaluated using cumulative returns, Sharpe ratios, and drawdowns.
+- All three factor strategies were evaluated using cumulative returns. Possible extensions include Sharpe ratios and drawdowns.
 - The combination of momentum and VRP outperformed the individual strategies in this dataset, showing the value of multi-factor integration.
 
 #### Strategy Performance Plots
