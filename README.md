@@ -71,7 +71,7 @@ We implemented a machine learning model to predict future returns from factor in
   - Next-day return (also tested with 5-day lookahead).
 
 - **Model:**
-  - Ridge Regression (regularized linear model), selected for its robustness in low-sample settings.
+  - Ridge Regression (regularized linear model), somewhat robust in low-sample settings.
   - Training was done on the first 80% of the date range, and predictions were made for the remaining 20%.
 
 - **Portfolio Construction:**
