@@ -17,7 +17,6 @@ factor_portfolio_project/
 ├── notebooks/
 │   ├── factor_analysis.ipynb
 │   ├── backtest_and_signal.ipynb
-│   ├── comparison.ipynb
 │   ├── ml_alpha_model.ipynb
 ```
 
