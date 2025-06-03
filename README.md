@@ -24,7 +24,7 @@ factor_portfolio_project/
 
 ## 1. Factor-Based Portfolios
 
-We constructed and backtested portfolios using several well-known quant factors:
+Constructed and backtested portfolios using several well-known quant factors:
 
 ### Momentum
 
@@ -35,7 +35,7 @@ We constructed and backtested portfolios using several well-known quant factors:
 
 - Defined as the difference between implied volatility and realized volatility.
 - Implied volatility was calculated using the Black-Scholes formula by inverting observed option prices for a single day (ATM call options).
-- We assumed this implied volatility to be fixed over the entire date range for each stock, a simplification that reduces noise but does not reflect real market dynamics.
+- Assumed this implied volatility to be fixed over the entire date range for each stock, a simplification that reduces noise but does not reflect real market dynamics.
 - Realized volatility was computed as the rolling 21-day standard deviation of returns, annualized.
 
 ### Combined Factor
@@ -62,7 +62,7 @@ We constructed and backtested portfolios using several well-known quant factors:
 
 ## 2. Machine Learning Strategy
 
-We implemented a machine learning model to predict future returns from factor inputs:
+Implemented a machine learning model to predict future returns from factor inputs:
 
 - **Inputs (Features):**
   - Z-score normalized momentum and VRP.
@@ -98,7 +98,7 @@ We implemented a machine learning model to predict future returns from factor in
 
 ## Key Takeaways
 
-- Simple, well-engineered factor models (momentum, VRP) can outperform ML-based strategies in low-data regimes.
+- Simple factor models (momentum, VRP) can outperform ML-based strategies in low-data regimes.
 - Machine learning requires careful tuning, validation, and large, diverse datasets to show its full power in return prediction.
 - Model comparison, performance attribution, and robustness testing are essential parts of quant strategy evaluation.
 
@@ -109,7 +109,6 @@ We implemented a machine learning model to predict future returns from factor in
 - Use rolling-window ML training for a more realistic backtest.
 - Try additional features (e.g., price volatility, beta, sector dummies).
 - Expand the stock universe to improve cross-sectional depth.
-- Apply transaction cost simulation and turnover-based penalties.
 - Experiment with score-weighted rather than binary top-N portfolios.
 
 ---
@@ -117,4 +116,4 @@ We implemented a machine learning model to predict future returns from factor in
 ## Author
 
 Ioannis Hadjifrangiskou  
-This project is part of a self-directed effort to explore quantitative research methods and prepare for roles in systematic investing or quant finance.
+This project is part of a self-directed effort to explore quantitative research methods and prepare for roles in systematic investing or quant finance. These are all first attempts and constructive feedback is appreciated and welcomed.
