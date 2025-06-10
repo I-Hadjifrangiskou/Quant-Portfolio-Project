@@ -67,9 +67,9 @@ Constructed and backtested portfolios using several well-known quant factors:
 
 #### Drawdown Over Time (Plots)
 
-- [Drawdown Plot – Momentum Strategy](https://github.com/I-Hadjifrangiskou/Quant-Portfolio-Project/blob/main/data/processed/momentum-drawdown.png)
-- [Drawdown Plot – VRP Strategy](https://github.com/I-Hadjifrangiskou/Quant-Portfolio-Project/blob/main/data/processed/VRP-drawdown.png)
-- [Drawdown Plot – Combined Strategy](https://github.com/I-Hadjifrangiskou/Quant-Portfolio-Project/blob/main/data/processed/combined-drawdown.png)
+- ![Drawdown Plot – Momentum Strategy](https://github.com/I-Hadjifrangiskou/Quant-Portfolio-Project/blob/main/data/processed/momentum-drawdown.png)
+- ![Drawdown Plot – VRP Strategy](https://github.com/I-Hadjifrangiskou/Quant-Portfolio-Project/blob/main/data/processed/VRP-drawdown.png)
+- ![Drawdown Plot – Combined Strategy](https://github.com/I-Hadjifrangiskou/Quant-Portfolio-Project/blob/main/data/processed/combined-drawdown.png)
 
 
 ---
