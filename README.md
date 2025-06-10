@@ -1,3 +1,4 @@
+
 # Quant Portfolio Strategy Exploration
 
 This project explores a series of quantitative strategies for equity portfolio construction, based on both hand-crafted factor signals and machine learning predictions. This is a first attempt at a structure that I believe a quant research team may approach building, evaluating, and comparing different alpha models using real financial data.
@@ -43,9 +44,15 @@ Constructed and backtested portfolios using several well-known quant factors:
 - A z-score normalized combination of momentum and VRP.
 - Equal-weighted composite score used to rank stocks and select top 20% for portfolio construction.
 
-### Results
+### Strategy Performance Metrics
 
-- All three factor strategies were evaluated using cumulative returns. Possible extensions include Sharpe ratios and drawdowns.
+| Strategy        | Annualised Sharpe Ratio | Max Drawdown |
+|----------------|--------------------------|---------------|
+| Momentum        | 0.939                    | -40.8%        |
+| VRP             | 0.797                    | -37.2%        |
+| Combined        | **0.964**                | **-35.3%**    |
+
+> 📈 **Conclusion**: The combined strategy outperforms both individual strategies in Sharpe ratio and drawdown, suggesting a better risk-adjusted return profile.
 
 #### Strategy Performance Plots
 
@@ -57,6 +64,14 @@ Constructed and backtested portfolios using several well-known quant factors:
 
 **Combined Momentum + VRP Strategy vs. Benchmark**  
 ![Combined Strategy](https://github.com/I-Hadjifrangiskou/Quant-Portfolio-Project/blob/main/data/processed/Combined-strategy.png)
+
+#### Drawdown Over Time (Plots)
+
+- [Drawdown Plot – Momentum Strategy](#)
+- [Drawdown Plot – VRP Strategy](#)
+- [Drawdown Plot – Combined Strategy](#)
+
+*(Replace the links above with actual image paths once uploaded.)*
 
 ---
 
@@ -99,6 +114,7 @@ Implemented a machine learning model to predict future returns from factor input
 ## Key Takeaways
 
 - Simple factor models (momentum, VRP) can outperform ML-based strategies in low-data regimes.
+- Combined factor strategies offer better performance and risk control than individual factors.
 - Machine learning requires careful tuning, validation, and large, diverse datasets to show its full power in return prediction.
 - Model comparison, performance attribution, and robustness testing are essential parts of quant strategy evaluation.
 
