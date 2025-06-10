@@ -52,7 +52,7 @@ Constructed and backtested portfolios using several well-known quant factors:
 | VRP             | 0.797                    | -37.2%        |
 | Combined        | **0.964**                | **-35.3%**    |
 
-> 📈 **Conclusion**: The combined strategy outperforms both individual strategies in Sharpe ratio and drawdown, suggesting a better risk-adjusted return profile.
+>  **Conclusion**: The combined strategy outperforms both individual strategies in Sharpe ratio and drawdown, suggesting a better risk-adjusted return profile.
 
 #### Strategy Performance Plots
 
