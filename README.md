@@ -52,7 +52,7 @@ Constructed and backtested portfolios using several well-known quant factors:
 | VRP             | 0.797                    | -37.2%        |
 | Combined        | **0.964**                | **-35.3%**    |
 
->  **Conclusion**: The combined strategy outperforms both individual strategies in Sharpe ratio and drawdown, suggesting a better risk-adjusted return profile. It is also worth noting that these strategies are only theoretical, transaction costs, slippage and delays are not taking into account. Additionally, we assume infinite liquidity and rebalancing is frictionless.
+>  **Conclusion**: The combined strategy outperforms both individual strategies in Sharpe ratio and drawdown, suggesting a better risk-adjusted return profile. It is also worth noting that these strategies are only theoretical: Transaction costs, slippage and delays are not taking into account. Additionally, we assume infinite liquidity and rebalancing is frictionless.
 
 #### Strategy Performance Plots
 
