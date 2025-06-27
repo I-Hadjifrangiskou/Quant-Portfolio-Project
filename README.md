@@ -94,14 +94,13 @@ Implemented a machine learning model to predict future returns from factor input
 
 ### Results
 
-- The ML strategy underperformed compared to simple factor-based strategies.
-- Example: ML strategy reached a growth factor of ~1.3 over the test period, while the combined factor strategy reached ~3.5.
+- The ML strategy reached a growth factor of ~1.3 over the test period.
 
 #### ML Strategy Plot
 
 ![ML Strategy](https://github.com/I-Hadjifrangiskou/Quant-Portfolio-Project/blob/main/data/processed/ML-strategy.png)
 
-### Potential Reasons for Underperformance
+### Potential Problems
 
 - Low number of stocks (only 5 tickers), limiting cross-sectional learning.
 - Daily returns are noisy and hard to predict.
@@ -112,8 +111,6 @@ Implemented a machine learning model to predict future returns from factor input
 
 ## Key Takeaways
 
-- Simple factor models (momentum, VRP) can outperform ML-based strategies in low-data regimes.
-- Combined factor strategies offer better performance and risk control than individual factors.
 - Machine learning requires careful tuning, validation, and large, diverse datasets to show its full power in return prediction.
 - Model comparison, performance attribution, and robustness testing are essential parts of quant strategy evaluation.
 
